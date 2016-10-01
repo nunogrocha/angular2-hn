@@ -1,0 +1,22 @@
+$primary: #ff6600;
+
+.comment {
+    letter-spacing: 0.5px;
+
+    a {
+        color: $primary;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 15px;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    span {
+        font-size: 15px;
+        color: #696969;
+        font-weight: bold;
+    }
+}

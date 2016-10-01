@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { HackernewsApiService } from '../hackernews-api.service';
 
 @Component({
   selector: 'item',
@@ -7,7 +6,7 @@ import { HackernewsApiService } from '../hackernews-api.service';
   styleUrls: ['./item.component.scss']
 })
 export class ItemComponent implements OnInit {
-  @Input() item;
+	@Input() item;
 
   constructor() {}
 

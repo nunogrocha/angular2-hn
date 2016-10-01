@@ -1,0 +1,47 @@
+$primary: #ff6600;
+
+.item {
+    letter-spacing: 0.5px;
+
+    .title {
+        color: black;
+        cursor: pointer;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    .domain {
+        color: #696969;
+        font-weight: bold;
+        letter-spacing: 0.5px;
+    }
+
+    .subtext-laptop {
+        font-size: 12px;
+
+        a {
+            color: $primary;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            &:hover {
+                text-decoration: underline;
+            }
+            span {
+                color: $primary;
+            }
+        }
+
+        span {
+            color: #696969;
+            font-weight: bold;
+        }
+    }
+
+    p {
+        margin: 0px;
+    }
+    
+}
